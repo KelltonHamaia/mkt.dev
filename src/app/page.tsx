@@ -11,7 +11,7 @@ const Page = () => {
         <MenuMobile />
       </nav>
 
-      <aside className='hidden h-screen p-4 border-r md:flex w-72 border-zinc-400'>
+      <aside className='hidden h-screen p-4 border-r md:flex w-72 border-zinc-700'>
         <ul className='w-full '>
             <HomeItem />
             <PersonalListItems />
