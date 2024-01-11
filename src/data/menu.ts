@@ -11,3 +11,4 @@ export const socials = [
     {icon: "/icons/instagram.svg", url: "https://www.instagram.com/kellton_arai/", content: "Instagram"},
     {icon: "/icons/facebook.svg", url: "https://www.facebook.com/kellton.hamaia", content: "Facebook"}
 ]
+
