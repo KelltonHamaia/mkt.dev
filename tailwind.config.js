@@ -72,7 +72,11 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        "noise": 'url("/image/noise.svg")'
+        "noise": 'url("/images/noise.svg")'
+      },
+      spacing: {
+        "820px": "820px",
+        "260px": "260px"
       }
     },
   },
