@@ -19,7 +19,7 @@ export const AvatarCard = () => {
                 </CardTitle>
                 <CardDescription className="text-zinc-400">Desenvolvedor Fullstack</CardDescription>
             </CardHeader>
-            <CardFooter className="flex flex-wrap items-center justify-start gap-2">
+            <CardFooter className="flex flex-wrap items-center justify-start gap-2 md:pt-3">
                 <StackBadges />
             </CardFooter>
             </div>
