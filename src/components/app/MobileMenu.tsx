@@ -23,6 +23,8 @@ export const MenuMobile = () => {
                             />
                         </DropdownMenuItem>
                     ))}
+                    <DropdownMenuSeparator />
+                    <DropdownMenuLabel>Redes Sociais</DropdownMenuLabel>
                     {socials.map((item, index) => (
                         <DropdownMenuItem key={index}>
                             <Menuitem

@@ -1,8 +1,10 @@
-import { AvatarCard } from "@/components/app/AvatarCard";
 import { HomeItem } from "@/components/app/HomeItem";
 import { MenuMobile } from "@/components/app/MobileMenu";
+import { AvatarCard } from "@/components/app/AvatarCard";
 import { PersonalListItems } from "@/components/app/PersonalListItems";
-import { SocialList } from "@/components/app/SocialListItems";
+import { SocialMediaList } from "@/components/app/SocialMediaList";
+import { AboutMe } from "@/components/app/AboutMe";
+
 const Page = () => {
 
   return (
@@ -13,12 +15,14 @@ const Page = () => {
         <ul className='w-full '>
             <HomeItem />
             <PersonalListItems />
-            <SocialList />
+            <SocialMediaList />
         </ul>
       </aside>
-      <main className="flex flex-col items-center justify-center flex-1 p-4 md:gap-8">
-        <AvatarCard />
-
+      <main className="flex flex-col items-center flex-1 p-4 md:mt-4 md:gap-8">
+        <div className="container max-w-4xl">
+          <AvatarCard />
+          <AboutMe />
+        </div>
       </main>
     </div>
   );
