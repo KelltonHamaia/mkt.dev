@@ -2,7 +2,7 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 
 export const AboutMe = () => {
     return (
-        <Card className="flex flex-col gap-2 p-4 mt-5 bg-transparent border-pink-100 dark:bg-zinc-900/50 dark:border-none">
+        <Card className="flex flex-col gap-2 p-4 mt-5 bg-transparent border-2 border-pink-100 dark:bg-zinc-900/20 dark:border-none">
             <CardTitle className="text-black dark:text-white"> 
                 Olá! 😃 
             </CardTitle>
