@@ -1,5 +1,6 @@
 type experiences = {
     url: string,
+    alt: string,
     mobile_url?: string,
     name: string,
     role: string,
@@ -10,6 +11,7 @@ type experiences = {
 export const experiences: experiences[] = [
     {
         url: "/experiences/ifpr.png",
+        alt: "IF",
         mobile_url: "experiences/if.png",
         name: "Instituto Federal Do Paraná",
         role: "Estudante de Tecnologias em Sistemas para Internet",
@@ -18,6 +20,7 @@ export const experiences: experiences[] = [
     },
     {
         url: "/experiences/b7web.png",
+        alt: "B7",
         name: "B7Web - Escola de ensino de programação",
         role: "Estudante em Desenvolvimento fullstack",
         period: "2022 - Atualmente",
@@ -25,6 +28,7 @@ export const experiences: experiences[] = [
     },
     {
         url: "/experiences/ifpr.png",
+        alt: "IF",
         mobile_url: "experiences/if.png",
         name: "Instituto Federal Do Paraná",
         role: "Monitor de lógica e linguagem de programação",
@@ -34,6 +38,7 @@ export const experiences: experiences[] = [
     
     {
         url: "/experiences/ifpr.png",
+        alt: "IF",
         mobile_url: "experiences/if.png",
         name: "Instituto Federal Do Paraná",
         role: "Estudante do Ensino médio e Técnico em Informática",

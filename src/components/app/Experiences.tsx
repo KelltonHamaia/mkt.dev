@@ -8,12 +8,12 @@ export const Experiences = () => {
                 <div key={index} className="flex flex-col gap-4 px-4 py-2 border-pink-100 rounded md:items-center md:flex-row dark:border-none">
                 <Avatar className="hidden mt-2 md:block md:mt-0 ring-1 ring-primary ring-offset-2 dark:ring-offset-slate-900">
                     <AvatarImage
-                        src={item.url}
+                        src={item.url}    
                         className="object-cover"
                     />
-                        <AvatarFallback>{item.name.substring(0, 2)}</AvatarFallback>
+                        <AvatarFallback>{item.alt}</AvatarFallback>
                 </Avatar>
-                <img src={item.mobile_url ? item.mobile_url : item.url} alt={item.name} className="self-start object-cover w-24 h-24 rounded md:hidden"/>
+                <img src={item.mobile_url ? item.mobile_url : item.url} alt={item.alt} className="self-start object-cover w-24 h-24 rounded md:hidden"/>
                 <div>
                     <h1 className="text-regular">{item.name}</h1>
                     <span className="block text-xs md:text-sm text-muted-foreground ">{item.role}</span>
