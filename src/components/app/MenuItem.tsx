@@ -6,7 +6,7 @@ type Props = {
 export const Menuitem = ({ icon, url, content }: Props) => {
     return (
         <a  
-            className="flex items-center w-full gap-3 px-4 py-2 rounded md:text-white hover:animate-pulse md:text-sm md:hover:bg-zinc-800"
+            className="flex items-center w-full gap-3 px-4 py-2 text-black rounded dark:text-white hover:animate-pulse md:text-sm md:dark:hover:bg-zinc-800 md:hover:bg-pink-50"
             href={url}
         >
             <img src={icon} alt="icon"/>
