@@ -17,7 +17,7 @@ const Page = () => {
             <HomeItem />
             <PersonalListItems />
             <SocialMediaList />
-            <div className="flex items-end justify-start flex-1 pl-4 text-black dark:text-white">
+            <div className="flex items-end justify-start flex-1 pb-2 text-black dark:text-white">
               <ThemeMenu />
             </div>
         </ul>
