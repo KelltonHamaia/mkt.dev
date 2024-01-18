@@ -3,7 +3,7 @@ import { experiences } from "@/data/experiences"
 export const Experiences = () => {
     return (
         <section className="grid gap-2 p-4 border-2 border-pink-100 rounded dark:border-none dark:bg-zinc-900/20">
-            <h1 className="font-bold text-black md:text-2xl dark:text-white">Minhas experiências 🧳</h1>
+            <h1 className="p-2 font-bold text-black md:text-2xl dark:text-white">Minhas experiências 🧳</h1>
             {experiences.map((item, index) => (
                 <div key={index} className="flex flex-col gap-4 px-4 py-2 border-pink-100 rounded md:items-center md:flex-row dark:border-none">
                 <Avatar className="hidden mt-2 md:block md:mt-0 ring-1 ring-primary ring-offset-2 dark:ring-offset-slate-900">

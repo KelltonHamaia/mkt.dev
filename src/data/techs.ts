@@ -10,7 +10,7 @@ export const frontend: Techs[] = [
         name: "CSS",
     },
     {
-        url: "/brands/daisyui.png",
+        url: "/brands/daisyUI-alt.png",
         name: "DaisyUI",
     },
     {

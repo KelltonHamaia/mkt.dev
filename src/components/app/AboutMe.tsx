@@ -6,7 +6,7 @@ export const AboutMe = () => {
             <CardTitle className="p-2 text-black dark:text-white"> 
                 Olá! 😃 
             </CardTitle>
-            <CardDescription className="px-2 leading-relaxed text-black break-words dark:text-white md:text-md">
+            <CardDescription className="px-2 leading-relaxed text-black dark:text-white md:text-md">
                 Meu nome é Kellton Hamaia, e sou desenvolvedor fullstack!
                 Atualmente estou no quarto semestre da graduação em Tecnologias em Sistemas para a Internet, pelo IFPR de Jacarezinho.
                 Amo este mundo da programação, pois através dos códigos, sou capaz de trazer a vida minhas ideias do zero :)

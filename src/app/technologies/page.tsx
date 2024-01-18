@@ -4,6 +4,7 @@ import { AvatarCard } from "@/components/app/AvatarCard";
 import { PersonalListItems } from "@/components/app/PersonalListItems";
 import { SocialMediaList } from "@/components/app/SocialMediaList";
 import { ThemeMenu } from "@/components/app/ThemeMenu";
+import { Frontend } from "@/components/app/Frontend";
 
 const Page = () => {
 
@@ -23,7 +24,7 @@ const Page = () => {
       </aside>
       <main className="flex flex-col items-center flex-1 p-4 md:ml-72">
         <div className="container grid max-w-4xl gap-5 md:mt-4">
-
+          <Frontend />
         </div>
       </main>
     </div>
