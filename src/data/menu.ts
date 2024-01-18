@@ -2,7 +2,7 @@ export const personalData = [
     {icon: "/icons/user.svg", url:"/about", content: "Sobre mim", alt: "sobre"},
     {icon: "/icons/folder.svg", url:"/projects", content: "Meus Projetos", alt: "projetos"},
     {icon: "/icons/code.svg", url:"/technologies", content: "Tecnologias e ferramentas", alt: "Techs"},
-    {icon: "/icons/code.svg", url:"/awards", content: "Certificados", alt: "Certificados"},
+    {icon: "/icons/award.svg", url:"/awards", content: "Certificações", alt: "Certificações"},
 ]
 
 export const socials = [
