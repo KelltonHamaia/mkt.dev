@@ -23,7 +23,7 @@ const Page = () => {
         </ul>
       </aside>
       <main className="flex flex-col items-center flex-1 p-4 md:ml-72">
-        <div className="container grid max-w-4xl gap-5 md:mt-4">
+        <div className="container grid max-w-4xl gap-5 md:mt-4 px-0 md:px-2">
           <Frontend />
         </div>
       </main>

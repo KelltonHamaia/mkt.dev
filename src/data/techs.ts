@@ -123,6 +123,10 @@ export const backend: Techs[] = [
         name: "JavaScript",
     },
     {
+        url: "/brands/mongoose.png",
+        name: "Mongoose",
+    },
+    {
         url: "/brands/nodejs.png",
         name: "Node.js",
     },
@@ -147,7 +151,7 @@ export const otherApps: Techs[] = [
     },
     {
         url: "/brands/compass.png",
-        name: "Compass",
+        name: "MongoDB Compass",
     },
     {
         url: "/brands/eclipse.png",

@@ -10,7 +10,7 @@ type Props = {
 }
 export const AlertItem = ({description}: Props) => {
   return (
-    <Alert>
+    <Alert className="hidden md:block">
       <Terminal className="w-4 h-4" />
       <AlertDescription>
         {description}
